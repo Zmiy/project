@@ -1,0 +1,113 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(41, 40, 40);
+    font-family: Lexend Deca;
+
+}
+
+.img-top {
+    background-image: url(https://wallpaperplay.com/walls/full/6/d/0/130635.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-align: center;
+    font-family: Lexend Deca;
+}
+
+.title-top {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title-bottom {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+main {
+    position: absolute;
+    top: calc(50%-35px);
+    left: calc(50%-255px);
+}
+
+.login {
+    position: absolute;
+    top: calc (50%-75px);
+    left: calc (50%-75px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+}
+
+.login input [type=text] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.login input [type=password] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.login input [type=button] {
+    width: 260px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input [type=button]:hover {
+    opacity: 0.8;
+}
+
+.login input [type=button]:active {
+    opacity: 0.6;
+}
+
+.login input [type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input [type=password]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input [type=button]:focus {
+    outline: none;
+}
